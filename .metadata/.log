@@ -28,3 +28,43 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-20 19:59:24.893
+!MESSAGE Classpath changed for project: hello-world
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-20 19:59:24.894
+!MESSAGE Boot project ADDED: hello-world
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-20 19:59:24.894
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-20 19:59:24.918
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-08-20 19:59:24.958
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\Aluno\Desktop\sts-4.24.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin\javaw.exe
+-cp
+C:\Users\Aluno\Desktop\sts-4.24.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Aluno\Desktop\sts-4.24.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Aluno\Desktop\sts-4.24.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/Aluno/Documents/projetos-aula-backend/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1724194764958
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-20 19:59:24.959
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-08-20 19:59:24.968
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11276
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-20 19:59:26.482
+!MESSAGE Classpath changed for project: hello-world
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-20 19:59:38.498
+!MESSAGE Classpath changed for project: hello-world
